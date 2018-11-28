@@ -192,6 +192,10 @@ class SpringCircle {
   void setPos(PVector _pos) {
     pos = _pos;
   }
+  
+  void setR(float _r){
+    r = _r;
+  }
 
   void setThreeColors(color _color1, color _color2, color _color3) {
     firstLayerColor = _color1;
